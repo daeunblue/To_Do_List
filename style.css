@@ -87,8 +87,16 @@
   display:flex;
   width: 100%;
   margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
-
+.wrapper .footer span{
+  width : 100%;
+  margin-left: 10px;
+}
+span .task_count{
+  color: blue;
+}
 .wrapper .footer button{
   height: 40px;
   width: 20%;
